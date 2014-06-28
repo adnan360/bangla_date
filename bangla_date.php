@@ -83,7 +83,7 @@ function bangla_date( $format, $timestamp = '')
 	$out = str_replace('a', bangla_number(date('a', $timestamp)), $out);
 	
 	// A : Uppercase Ante meridiem and Post meridiem : AM or PM
-	$out = str_replace('a', bangla_number(date('a', $timestamp)), $out);
+	$out = str_replace('A', bangla_number(date('A', $timestamp)), $out);
 	
 	//$out = bangla_number($out);
 	return $out;
